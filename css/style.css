@@ -12589,25 +12589,67 @@ textarea.form-control {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.stack-img {
+  width: 50px;
+  height: 50px;
 }
 
 .tech-stacks-1 {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+  /* position: relative; */
+  flex-wrap: wrap;
+  /* align-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
 }
 
 .tech-stacks-2 {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+  /* position: relative; */
+  flex-wrap: wrap;
+  /* align-content: space-around; */
+  justify-content: center;
+  align-items: center;
 }
+
+/* @media only screen and (min-device-width:360px) and (max-device-width: 450px) {
+  .stack-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tech-stacks-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    position: relative;
+    width: 360px;
+  }
+
+  .tech-stacks-2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    position: relative;
+    width: 360px;
+  }
+
+} */
 
 .stack-li {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  /* position: relative; */
 }
 
 .stack-li > li {
