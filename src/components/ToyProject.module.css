@@ -1,0 +1,32 @@
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.slate {
+  color: #68737e;
+}
+
+.purple {
+  color: purple;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: #ff5b00;
+}
+
+.blue {
+  color: #093250;
+}
+
+.red {
+  color: #831814;
+}
+
+.bold {
+  font-weight: 500;
+}

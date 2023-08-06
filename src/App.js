@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import "./App.css";
+import Container from "./components/Container";
+import DetailModal from "./components/DetailModal";
 
 function App() {
+  const [isModalVisible, setIsModalVisibile] = useState(false);
+  const [clickedProject, setClickedProject] = useState("");
+
+  const showModal = (boolean, projectName) => {
+    setIsModalVisibile(boolean);
+    setClickedProject(projectName);
+  };
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    isModalVisible
+      ? body.classList.add("scroll_lock")
+      : body.classList.remove("scroll_lock");
+  }, [isModalVisible]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DetailModal
+        isModalVisible={isModalVisible}
+        showModal={showModal}
+        project={clickedProject}
+      />
+      <Container showModal={showModal} />
     </div>
   );
 }
