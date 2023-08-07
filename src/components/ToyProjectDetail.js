@@ -7,7 +7,7 @@ const projectDetail = {
       "Frontend: Next + Typescript",
       "Backend: Express, MySQL, JWT, Web3.js,",
       "LoginServer: NestJS, MySQL, Redis, JWT, Web3.js",
-      "SmartContract: Truffle",
+      "Blockchain: Smart Contract, Truffle, Layer2 Optimism",
     ],
     assets: {
       github: "https://github.com/bitkunst/DID",
@@ -50,7 +50,10 @@ const projectDetail = {
     ],
     roles: [
       "Geth를 사용하여 PoW 방식의 프라이빗 네트워크 구축",
-      "Socket.io와 Web3 라이브러리를 사용하여 실시간으로 블록 정보가 조회 가능하게끔 구현",
+      "웹소켓을 사용하여 실시간으로 블록 정보가 조회 가능하게끔 구현",
+      "계정 주소로 검색시 해당 계정으로 마이닝한 블록 내용, 해당 계정으로 발생시킨 트랜잭션 내용 조회 가능하도록 구현",
+      "블록 Number로 검색시 해당 블록에 대한 정보 조회 가능하도록 구현",
+      "트랜잭션 Hash로 검색시 해당 트랜잭션에 대한 정보 조회 가능하도록 구현",
     ],
     lessons: [
       "Socket.io와 Web3 라이브러리를 같이 사용하여 실시간 블록체인 네트워크 상에 업데이트된 데이터들을 추적하는 스킬셋을 익히게 되었습니다.",
