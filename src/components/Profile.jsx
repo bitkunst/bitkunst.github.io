@@ -119,7 +119,7 @@ function Profile() {
   return (
     <FlexWrapper>
       <ImgBox
-        src={`${process.env.PUBLIC_URL}/profile_img.png`}
+        src={`${process.env.PUBLIC_URL}/profile_img.jpg`}
         alt="my_profile"
         ref={imgRef}
       />
