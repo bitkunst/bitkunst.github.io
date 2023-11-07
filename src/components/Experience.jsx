@@ -119,8 +119,8 @@ const workData = [
   {
     work: "glitch",
     details: [
+      "ETH, USDT, USDC 입출금 처리 프로세스 작업",
       "Uniswap V3 SDK를 사용해 토큰 스왑 기능 구현",
-      "ETH, USDT 입출금 처리 프로세스 작업",
       "Web3.js 사용해 이더리움 네트워크 관련 API 제작",
       "TronWeb을 사용해 트론 네트워크 관련 API 제작",
       "JSONRPC 통신으로 Bitcoin Core와 연동된 API 구현",
@@ -132,6 +132,8 @@ const workData = [
       "Web3.js",
       "Solidity",
       "Truffle",
+      "Swagger",
+      "Slack",
       "Github",
     ],
   },
@@ -139,11 +141,23 @@ const workData = [
     work: "develrocket",
     details: [
       "NestJS를 활용한 백엔드 API 개발",
-      "TypeORM 과 Repository 패턴을 사용하여 애플리케이션 개발",
+      "OAuth2.0을 활용하여 인증, 인가 프로세스 구현",
       "AWS Cognito를 활용하여 Access Token 과 Refresh Token을 통한 세션 관리",
+      "AWS S3를 활용하여 교육 자료 및 영상 업로드",
+      "TypeORM 과 Repository 패턴을 사용하여 데이터 처리",
       "모든 API에 대해 Swagger를 활용하여 문서화 진행",
     ],
-    stacks: ["Typescript", "NestJS", "MySQL", "TypeORM", "Github"],
+    stacks: [
+      "Typescript",
+      "NestJS",
+      "MySQL",
+      "TypeORM",
+      "AWS",
+      "AWS-S3",
+      "Swagger",
+      "Slack",
+      "Github",
+    ],
   },
 ];
 
@@ -192,8 +206,11 @@ function Experience() {
           </Subject>
           <SummaryText>
             신입 블록체인 개발자로서 런칭 하려고 했던 플랫폼에서 사용될 블록체인
-            및 Web3와 관련한 API 개발 업무를 맡았습니다. 투자사의 투자 중단으로
-            인해 서비스 런칭에 실패하였고 사업이 중단 되었습니다.
+            네트워크 및 Web3와 관련한 API 개발 업무를 맡았습니다. 주요 업무는
+            ETH, USDT, USDC 입출금 프로세스를 담당하였습니다. 저희 플랫폼
+            지갑으로 ETH, USDT, USDC를 입금하면 비율에 맞게 플랫폼 포인트로
+            전환해주는 API를 개발하였습니다. 투자사의 투자 중단으로 인해 서비스
+            런칭에 실패하였고 사업이 중단 되었습니다.
           </SummaryText>
           <DetailSubject>Details</DetailSubject>
           <ListWrapper>
@@ -242,15 +259,14 @@ function Experience() {
         <TextBox>
           <Subject>
             <a href="https://develrocket.com/" target="_blank" rel="noreferrer">
-              DevelRocket.com 사이트 (현재 심사 진행중)
+              DevelRocket.com 사이트
               <MdTransitEnterexit />
             </a>
           </Subject>
           <SummaryText>
             경일 게임 아카데미에서 추진하는 스마트 훈련 플랫폼 백엔드 개발
-            업무를 맡았습니다. NestJS를 사용하여 개발하였으며, 6개월의 기간동안
-            프로젝트 시작부터 끝까지의 모든 서비스를 개발하였으며 현재 정부 기관
-            심사 진행중 입니다.
+            업무를 맡았습니다. 기술 스택으로는 Node.js 진영의 NestJS
+            프레임워크를 사용하여 개발했습니다.
           </SummaryText>
           <DetailSubject>Details</DetailSubject>
           <ListWrapper>
