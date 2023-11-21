@@ -141,8 +141,8 @@ const workData = [
     work: "develrocket",
     details: [
       "NestJS를 활용한 백엔드 API 개발",
-      "OAuth2.0을 활용하여 인증, 인가 프로세스 구현",
-      "AWS Cognito를 활용하여 Access Token 과 Refresh Token을 통한 세션 관리",
+      "OAuth2.0 기반의 소셜 로그인 구현",
+      "AWS Cognito를 활용하여 Access Token과 Refresh Token을 사용한 토큰 기반 인증",
       "AWS S3를 활용하여 교육 자료 및 영상 업로드",
       "TypeORM 과 Repository 패턴을 사용하여 데이터 처리",
       "모든 API에 대해 Swagger를 활용하여 문서화 진행",
